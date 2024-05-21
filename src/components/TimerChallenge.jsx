@@ -1,5 +1,5 @@
 import {useState, useRef} from 'react';
-import ResultModal from './ResulltModal.jsx';
+import ResultModal from './ResultModal.jsx';
 
 export default function TimerChallenge({title, targetTime}) {
   const [timerStarted, setTimerStarted] = useState(false);
